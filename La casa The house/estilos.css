@@ -1,0 +1,137 @@
+:root {
+    --rojo: #c74949;
+    --fondo: #000000 ;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box 
+    
+    }
+    body{
+        background: var(--fondo)
+    }
+    .contenedor{
+        width: 98%;
+        margin: auto;
+    }
+    header{
+        padding: 30px  0;
+    }
+    header .contenedor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .logotipo{
+        font-family: 'Bebas Neve', cursive;
+        font-weight: normal;
+        color: #b30c0c;
+        font-size: normal;
+    }
+    
+    header nav a {
+        color: #AAA;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    header nav a:hover,
+    header nav a.active {
+        color: #fff;
+    
+    }
+    /* ----- ----- ------Pelicula Principal--------  ------ ------*/
+    
+    .pelicula-principal {
+        font-size: 16px ;
+        min-height: 40.62em ; 
+        color: #fff;
+        background: url(https://occ-0-1918-185.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfMNKbkD9JsM7FxYQgNYILfqx1irAqNJu24_Un6YJa8FxOlsvlib2yOhG1cRu_g4CVH9a76gtan326Rey1nr7n4k0VygvScY6zq3.jpg?r=d40);
+        background-position: center center;
+        background-size: cover;
+        margin-bottom: 3.12em;
+        display: flex;
+        align-items: end;
+    }
+    
+    .pelicula-principal .contenedor {
+        margin: 0 auto;
+        margin-bottom: 6.25em;
+    }
+    
+    .pelicula-principal .titulo {
+        font-weight: 600;
+        font-size: 3.12em;
+        margin-bottom: 0.4em;
+    }
+    
+    .pelicula-principal .descripcion {
+        font-weight: normal;
+        font-size: 1.7em;
+        line-height: 1.75em;
+        max-width: 60%;
+        margin-bottom: 1.35em;
+    }
+    
+    .pelicula-principal .boton {
+        background: rgba(0,0,0, 0.5);
+        border: none;
+        border-radius: 0.31em;
+        padding: 0.93em 1.87em;
+        color : #fff;
+        margin-right: 1.25em;
+        cursor: pointer;
+        transition: .3s ease all ;
+        font-size: 1.12em;
+    }
+    
+    .pelicula-principal .boton:hover{
+        background: #fff;
+        color: #000;
+    }
+    
+    .pelicula-principal .boton i {
+    
+        margin-right: 1.25em;
+    }
+    /* ---- ---- ---- Contenedor Titulo y Controles   ---- ---- ---- */
+    .contenedor-titulo-controles{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    } 
+    .contenedor-titulo-controles h3{
+        color: #fff;
+        font-size: 30px;
+    }
+    .contenedor-titulo-controles .indicadores button{
+        background: #fff;
+        height: 3px;
+        width: 10px;
+        cursor: pointer;
+        border: none;
+        margin-right: 2px;
+    }
+    
+    .contenedor-titulo-controles .indicadores  button:hover,
+    .contenedor-titulo-controles .indicadores  button:active {
+        background: red;
+    }
+
+    /* ---- ---- ---- Pie de pagina  ---- ---- ---- */
+    .piedepagina{
+       color: #fff;
+       margin: 05%;
+    }   
+
+    /* ---- ---- ---- Encuadre del Video  ---- ---- ---- */
+    .Lacasa{
+        position:-ms-page;
+        top: 30px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
